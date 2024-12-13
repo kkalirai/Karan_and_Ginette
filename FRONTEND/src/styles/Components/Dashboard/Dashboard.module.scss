@@ -1,0 +1,14 @@
+@import '@/styles/variables.scss';
+
+.dscount {
+  // max-width: 250px;
+  justify-content: center;
+  // align-items: center;
+  border: none;
+  span {
+    font-size: 14px;
+  }
+  h2 {
+    color: $primary;
+  }
+}

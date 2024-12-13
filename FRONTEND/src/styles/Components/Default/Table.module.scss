@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.UserSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: $md) {
+  }
+
+  .FullBtn {
+    @media (max-width: $md) {
+      width: 100%;
+    }
+  }
+}

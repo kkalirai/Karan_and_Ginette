@@ -1,0 +1,74 @@
+@import '../../variables.scss';
+
+.Tab {
+  background-color: $white;
+  border-bottom: 1px solid $Grey200;
+  display: flex;
+  justify-content: center; /* Center-aligns the tabs */
+}
+
+.TabInner {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center-aligns the tabs */
+  min-height: 67px;
+
+  .TabSubInner {
+    display: flex; /* Horizontally aligns the links */
+    align-items: center; /* Vertically aligns the links */
+    gap: 40px; /* Increased gap between tabs */
+  }
+
+  a {
+    text-decoration: none;
+    color: #475467;
+    font-size: $fs14;
+    font-weight: $font-weight-semibold;
+  }
+
+  span {
+    @media (max-width: $sm) {
+      display: none;
+    }
+  }
+}
+
+.TabRight {
+  ul {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    display: flex;
+
+    li {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .topUserHead {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .userIcon {
+      background-color: #f4f4f5;
+      height: 32px;
+      width: 32px;
+      text-align: center;
+      line-height: 32px;
+      border-radius: 100%;
+      margin-left: 18px;
+      margin-right: 10px;
+      display: block;
+    }
+
+    .selectControl {
+      width: 124px !important;
+      border: 0px solid #000;
+      border-radius: 0px;
+      color: #3f3f46;
+      font-size: $fs14;
+    }
+  }
+}

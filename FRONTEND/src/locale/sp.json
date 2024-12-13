@@ -1,0 +1,13 @@
+{
+  "REGISTER": "REGISTER",
+  "LOGIN": "LOGIN",
+  "DASHBOARD": "Dashboard",
+  "COMPANY_INFORMATION": "Company Information",
+  "CHANGE_PASSWORD": "Change Password",
+  "PERSONAL_INFORMATION": "Personal Information",
+  "USER_PROFILE": "User Profile",
+  "SAVE_CHANGES": "Save Changes",
+  "SELECT_PHOTO": "Select Photo",
+  "SELECT_LOGO": "Select Logo",
+  "HELLO": "Hello "
+}

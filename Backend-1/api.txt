@@ -1,0 +1,5 @@
+Creating A Instructor -- 
+
+SignUp Instructor -- /auth/instructor/sign-up
+Login Instructor -- /auth//user/login
+Logout Instructor -- /auth/instructor/logout

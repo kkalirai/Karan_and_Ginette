@@ -1,0 +1,8 @@
+.rightModalbody {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 30px 0px 30px;
+  + .outer {
+    padding: 0;
+  }
+}

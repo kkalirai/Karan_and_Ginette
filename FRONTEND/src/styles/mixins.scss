@@ -1,0 +1,82 @@
+@import './variables.scss';
+
+@mixin d-flex1 {
+  display: $flex;
+  align-items: $alignCenter;
+  justify-content: $justifyCenter;
+}
+
+@mixin d-flex2 {
+  display: $flex;
+  align-items: $alignCenter;
+  justify-content: $justifyBetween;
+}
+
+@mixin d-flex3 {
+  display: $flex;
+  flex-direction: $column;
+  justify-content: $justifyBetween;
+}
+
+@mixin d-flex4 {
+  display: $flex;
+  align-items: $alignCenter;
+}
+
+@mixin button {
+  height: 44px;
+  line-height: 44px;
+  border-radius: $border-radius;
+  color: #fff;
+  font-size: $fs14 + 2;
+  background: $primary;
+  border-color: $primary;
+  padding: 0 $space20;
+  text-align: center;
+  box-shadow: none;
+  display: $inlineBlock;
+  text-transform: capitalize;
+  font-weight: $font-weight-semibold;
+
+  &:not(:disabled):not(.disabled):active {
+    background: $primary;
+    border-color: $primary;
+    box-shadow: $none !important;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white !important;
+  }
+}
+
+@mixin formControl {
+  // border: 1px solid #DADADA!important;
+  border-radius: 8px;
+  height: 44px;
+  line-height: 44px;
+  font-size: $fs14 + 2;
+  font-weight: $font-weight-normal;
+  color: #696969;
+  padding: 0 $space10 + 5;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+@mixin formSelect {
+  border: 1px solid #dadde1;
+  border-radius: 8px;
+  height: 44px;
+  line-height: 30px;
+  font-size: $fs14 + 2;
+  font-weight: $font-weight-normal;
+  color: #696969;
+  padding: 0 $space10 + 5;
+  background: #fff url(/assets/icons/down-arrow.svg) no-repeat center right 5px;
+
+  option {
+    padding: 10px;
+  }
+}

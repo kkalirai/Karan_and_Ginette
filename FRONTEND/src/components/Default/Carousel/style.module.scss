@@ -1,0 +1,39 @@
+.carousel {
+  width: 100%;
+  overflow: auto;
+}
+
+.carousel.horizontal {
+  white-space: nowrap;
+}
+
+.carousel.vertical {
+  .carouselContent {
+    flex-direction: column; /* Arrange items vertically */
+  }
+}
+
+.carouselContent {
+  display: flex;
+  gap: 16px;
+  img {
+    cursor: grab;
+  }
+  h5 {
+    cursor: pointer;
+  }
+}
+
+.carousel-item {
+  flex: 0 0 auto; /* Ensure items don't grow or shrink */
+  width: 100%; /* Take up full width of carousel */
+  height: 100px; /* Set height of each item */
+  background-color: #f0f0f0;
+  margin: 5px; /* Add some spacing between items */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+}

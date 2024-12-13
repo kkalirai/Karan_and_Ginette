@@ -1,0 +1,100 @@
+#root {
+  $sp-primary: #627a7a;
+  $sp-secondary: #101828;
+  $sp-background: #fff;
+  $sp-font-family: 'Inter';
+}
+
+// Global classes for Branding
+$primary: var(--sp-primary);
+$sp-font-family: var(--sp-font-family);
+
+$white: #fff;
+$green: #009d33;
+$DarkGray: #1b1b1b;
+$DarkGrey: #3f3f46;
+$Grya: #444444;
+$lightGrey: #fcfcfc;
+$secondary: var(--sp-secondary);
+$Grey900: #1b1b1b;
+$Grey600: #444444;
+$Grey200: #eaecf0;
+$DrakGrey2: #475467;
+$grey: #475467;
+$Orenge: #ff6825;
+$offGrey: #edeef0;
+$red: #f04437;
+
+$fs14: 14px;
+$fs20: 20px;
+$fs30: 30px;
+$fs38: 38px;
+$fs48: 48px;
+
+$lh20: 20px;
+
+$space10: 10px;
+$space20: 20px;
+$space30: 30px;
+
+$text-uppercase: uppercase;
+$text-capitalize: capitalize;
+
+$bdr0: none;
+$bdr1: 1px;
+
+$absolute: absolute;
+$relative: relative;
+$fixed: fixed;
+
+$theme-transition: all 0.3s ease;
+
+$pointer: pointer;
+
+$flex: flex;
+$block: block;
+$none: none;
+$inlineBlock: inline-block;
+$alignCenter: center;
+$justifyCenter: center;
+$justifyBetween: space-between;
+$column: column;
+
+$border-radius: 0.5rem;
+$border-radius-sm: 0.5rem;
+$border-radius-lg: 0.3rem;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$defaultRadius: 8px;
+
+$sm: 565px;
+$md: 767px;
+$lg: 991px;
+$xl: 1199px;
+$xxl: 1439px;
+$xxxl: 1599px;
+$xxxxl: 1700px;
+
+$color_1: #716f6f;
+$color_2: #000;
+$color_3: #ffd201;
+$color_4: #fff;
+$color_5: #26292a;
+$color_6: #627a7a;
+$color_7: #b4b4b4;
+$color_8: #495057;
+$font-family_1: 'Inter', sans-serif;
+$background-color_1: #ffffff;
+$background-color_2: #023047;
+$background-color_3: #219ebc;
+$background-color_4: transparent;
+$background-color_5: #000;
+$background-color_6: #fff;
+$background-color_7: #e7ebee;
+$background-color_8: #e5e5e5;
+$border-color_1: #d9d9d9;

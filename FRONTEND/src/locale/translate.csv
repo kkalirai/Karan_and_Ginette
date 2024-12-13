@@ -1,0 +1,17 @@
+LABEL,ENGLISH,SPANISH
+REGISTER,REGISTER,REGISTRARSE
+LOGIN,LOGIN,ACCESO
+DASHBOARD,Dashboard,Tablero
+COMPANY_INFORMATION,Company Information,"Información de la empresa
+"
+CHANGE_PASSWORD,Change Password,"Cambia la contraseña
+"
+PERSONAL_INFORMATION,Personal Information,"Informacion personal
+"
+USER_PROFILE,User Profile,"Perfil del usuario
+"
+SAVE_CHANGES,Save Changes,Guardar cambios
+SELECT_PHOTO,Select Photo,Seleccione Foto
+SELECT_LOGO,Select Logo,Seleccionar logotipo
+MYADDRESS,My Address,Mi dirección
+HELLO,"Hello ",Hola

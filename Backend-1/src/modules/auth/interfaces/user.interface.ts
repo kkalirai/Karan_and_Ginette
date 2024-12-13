@@ -1,0 +1,30 @@
+export interface Userattributes {
+  id: number;
+  firstName: string;
+  lastName: string;
+  password: string;
+  email: string;
+  height: number;
+  weight: number;
+  instructorId: number;
+  contact: string;
+  gender: string;
+  socialId: string;
+  socialProvider: string;
+  isVerified: boolean;
+  isActive: boolean;
+  completedWorkouts: Array<Object>;
+  userNutritions: Array<Object>;
+  weights: Array<Object>;
+  instructorNutritions: Array<Object>;
+  userWorkouts: Array<Object>;
+  heights: Array<Object>;
+  instructorWorkouts: Array<Object>;
+  userroles: Array<Object>;
+  lastLogin: Date;
+  healthIssues: string;
+  lookingFor: string;
+  workoutFrequency: string;
+  foodPreference: string;
+  bodyFat: string;
+}

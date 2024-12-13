@@ -1,0 +1,134 @@
+@import '../../variables.scss';
+
+.SubHeadMain {
+  background-color: $white;
+  border-bottom: 1px solid #eaecf0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  .SubHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .CustomerCount {
+      font-size: $fs20 - 2;
+      font-weight: $font-weight-semibold;
+      line-height: 18px;
+
+      @media (max-width: $sm) {
+        margin-bottom: 5px;
+      }
+
+      span {
+        display: block;
+        font-size: $fs14 - 4;
+        color: $Grya;
+        font-weight: $font-weight-normal;
+      }
+    }
+  }
+}
+
+.customerModel {
+  display: flex;
+
+  @media (max-width: $md) {
+    flex-wrap: wrap;
+  }
+
+  .LeftPannel {
+    width: 300px;
+    border-right: 1px solid #f5f5f5;
+    flex: 0 0 300px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    @media (max-width: $lg) {
+      width: 206px;
+      flex: 0 0 206px;
+    }
+
+    @media (max-width: $md) {
+      width: 100%;
+      flex: 0 0 100%;
+      border-right: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+    }
+
+    .custSearch {
+      width: 100%;
+    }
+
+    .ColumnsList {
+      h3 {
+        font-size: $fs14 - 2;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        border: 1px solid #f5f5f5;
+        padding: 10px 10px 10px 0px;
+        li {
+          border-bottom: 1px solid #f5f5f5;
+          padding: 10px 10px 10px 45px;
+          margin: 0px;
+          position: relative;
+          font-size: $fs14;
+          font-weight: $font-weight-medium;
+          cursor: grab;
+          span {
+            position: absolute;
+            left: 16px;
+            top: 9px;
+          }
+
+          &:last-child {
+            border-bottom: 0px solid #000;
+          }
+        }
+      }
+    }
+  }
+
+  .RightPannel {
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 20px;
+
+    @media (max-width: $md) {
+      padding-left: 0px;
+    }
+
+    h3 {
+      font-size: $fs14 - 2;
+      margin-bottom: 15px;
+    }
+
+    .selectedCol {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      border-bottom: 1px solid #ececec;
+      margin-bottom: 8px;
+      font-size: $fs14;
+      font-weight: $font-weight-medium;
+      cursor: grab;
+      .ListIcon {
+        margin-right: 10px;
+      }
+
+      .closeIcon {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+      }
+    }
+  }
+}
